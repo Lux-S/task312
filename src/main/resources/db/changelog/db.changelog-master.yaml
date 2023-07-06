@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: lux
+      changes:
+        - createTable:
+            tableName: task312
+            columns:
+              - column:
+                  name: age
+                  type: int
+              - column:
+                  name: email
+                  type: varchar(255)
+              - column:
+                  name: name
+                  type: varchar(255)
